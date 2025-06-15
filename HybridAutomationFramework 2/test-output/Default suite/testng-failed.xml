@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="OR_TC.TS_005">
+        <methods>
+          <include name="setValues"/>
+          <include name="tS_SI_001"/>
+          <include name="postcondition"/>
+          <include name="startReport"/>
+          <include name="stopReport"/>
+          <include name="precondition"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- OR_TC.TS_005 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

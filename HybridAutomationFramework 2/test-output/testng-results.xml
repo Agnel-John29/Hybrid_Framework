@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-03T15:29:39 IST" name="Default suite" finished-at="2024-11-03T15:29:59 IST" duration-ms="20036">
+    <groups>
+    </groups>
+    <test started-at="2024-11-03T15:29:39 IST" name="Default test" finished-at="2024-11-03T15:29:59 IST" duration-ms="20036">
+      <class name="OR_TC.TS_005">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:OR_TC.TS_005@2b30a42c]" started-at="2024-11-03T15:29:39 IST" name="startReport" finished-at="2024-11-03T15:29:39 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:OR_TC.TS_005@2b30a42c]" started-at="2024-11-03T15:29:39 IST" name="setValues" finished-at="2024-11-03T15:29:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="report()[pri:0, instance:OR_TC.TS_005@2b30a42c]" started-at="2024-11-03T15:29:39 IST" name="report" finished-at="2024-11-03T15:29:39 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:OR_TC.TS_005@2b30a42c]" started-at="2024-11-03T15:29:39 IST" name="precondition" finished-at="2024-11-03T15:29:54 IST" duration-ms="14057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tS_SI_001()[pri:0, instance:OR_TC.TS_005@2b30a42c]" started-at="2024-11-03T15:29:54 IST" name="tS_SI_001" finished-at="2024-11-03T15:29:58 IST" duration-ms="4758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tS_SI_001 -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:OR_TC.TS_005@2b30a42c]" started-at="2024-11-03T15:29:58 IST" name="postcondition" finished-at="2024-11-03T15:29:59 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:OR_TC.TS_005@2b30a42c]" started-at="2024-11-03T15:29:59 IST" name="stopReport" finished-at="2024-11-03T15:30:00 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- OR_TC.TS_005 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

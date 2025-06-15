@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report theme -->
+        <!-- Options: standard, dark -->
+        <theme>standard</theme>
+
+        <!-- Document encoding -->
+        <!-- Defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for script and stylesheets -->
+        <!-- Defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- Title of the document -->
+        <documentTitle>Test Results</documentTitle>
+
+        <!-- Report name - displayed at top-nav -->
+        <reportName>
+            <![CDATA[
+                <img src='/HybridAutomationFramework/HybridAutomationFramework/logos/Ava_Logo.png' alt='Ava Logo' style='margin: 0.2px; max-width: 80px;' />
+            ]]>
+        </reportName>
+
+        <!-- Report headline - displayed at top-nav, after reportHeadline -->
+        <reportHeadline>Regression Analysis Report</reportHeadline>
+
+        <!-- Global date format override -->
+        <!-- Defaults to yyyy-MM-dd -->
+        <dateFormat>yyyy-MM-dd</dateFormat>
+
+        <!-- Global time format override -->
+        <!-- Defaults to HH:mm:ss -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- Location of charts in the test view -->
+        <!-- Options: top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    // Your custom JavaScript code here
+                    // Add more JavaScript for additional customization
+                    // Example: $('.widget-container').addClass('custom-widget-style');
+                });
+            ]]>
+        </scripts>
+
+        <!-- Custom styles -->
+        <custom>
+            <styles>
+                <![CDATA[
+                    .report-name {
+                        padding: 5px;
+                        background-color: #f4f4f4; /* Light gray background */
+                        border-radius: 5px;
+                        margin-bottom: 20px;
+                    }
+
+                    .report-name > img {
+                        float: left;
+                        margin: 2px;
+                        max-width: 80px;
+                    }
+
+                    .report-headline {
+                        font-size: 24px;
+                        color: #333; /* Dark gray text color */
+                        margin-bottom: 10px;
+                    }
+
+                    .chart-container {
+                        margin-bottom: 20px;
+                    }
+
+                    .duration {
+                        font-weight: bold;
+                        color: #0066cc; /* Blue color for emphasis */
+                    }
+
+                    /* Add more custom styles as needed */
+                    .custom-widget-style {
+                        /* Example: Add 3D effect styles */
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        transform: scale(1.05);
+                        transition: transform 0.3s ease-out;
+                    }
+                ]]>
+            </styles>
+        </custom>
+
+        <!-- Additional Charts -->
+        <charts>
+            <chart>
+                <name>TestPassFailPieChart</name>
+                <chartLocation>bottom</chartLocation>
+                <chartTitle>Test Pass/Fail Distribution</chartTitle>
+                <chartType>pie</chartType>
+            </chart>
+            <chart>
+                <name>TestExecutionTimePieChart</name>
+                <chartLocation>bottom</chartLocation>
+                <chartTitle>Test Execution Time Distribution</chartTitle>
+                <chartType>pie</chartType>
+            </chart>
+            <chart>
+                <name>CustomChart1</name>
+                <chartLocation>bottom</chartLocation>
+                <chartTitle>Custom Chart 1</chartTitle>
+                <chartType>bar</chartType>
+            </chart>
+            <chart>
+                <name>CustomChart2</name>
+                <chartLocation>bottom</chartLocation>
+                <chartTitle>Custom Chart 2</chartTitle>
+                <chartType>line</chartType>
+            </chart>
+            <chart>
+                <name>CustomChart3</name>
+                <chartLocation>bottom</chartLocation>
+                <chartTitle>Custom Chart 3</chartTitle>
+                <chartType>area</chartType>
+            </chart>
+            <!-- Add more charts as needed -->
+        </charts>
+
+        <!-- Dashboard customization -->
+        <dashboard>
+            <widgets>
+                <widget>
+                    <name>ExecutionDuration</name>
+                    <description>Script Running Time</description>
+                    <type>duration</type>
+                </widget>
+                <widget>
+                    <name>CustomWidget1</name>
+                    <description>Additional Widget</description>
+                    <type>custom</type>
+                </widget>
+                <widget>
+                    <name>CustomWidget2</name>
+                    <description>Another Widget</description>
+                    <type>custom</type>
+                </widget>
+                <!-- Add more widgets as needed -->
+            </widgets>
+        </dashboard>
+
+    </configuration>
+</extentreports>
